@@ -1,7 +1,6 @@
 // ********************************************
-// <Autor> Vicente Javier Viera Guízar </Autor>
-// <ID> A01639784 </ID>
-// <version> 1.12.20.7 </version>
+// <Autor> Bjorn Alenjandro Mancio Cruz </Autor>
+// <ID> A01634243 </ID>
 // ********************************************
 #include <vector>
 #include <iostream>

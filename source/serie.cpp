@@ -1,3 +1,7 @@
+// ********************************************
+// <Autor> Bjorn Alenjandro Mancio Cruz </Autor>
+// <ID> A01634243 </ID>
+// ********************************************
 #include <iostream>
 #include "Serie.h"
 #include "Capitulo.h"
