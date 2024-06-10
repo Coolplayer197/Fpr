@@ -1,4 +1,8 @@
 # -*- MakeFile -*-
 
-main: 
-	g++ ./app/main.cpp -o main.exe
+# Variables
+CXXFLAGS = -std=c++20 -O3
+SRCS = $(wildcard *.cpp)
+
+main:
+	g++ $(SRCS) -std=c++20 -O3 -o main.exe
