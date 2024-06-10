@@ -116,7 +116,7 @@ void Netflix::ponlePlay(){
                             videos.push_back(c);
                         }
                     }
-                    system("CLS");
+                    system("clear");
                     cout<<"---------------------------"<<endl;
                     cout<<"datos cargados exitosamente"<<endl;
                     cout<<"---------------------------"<<endl;
@@ -135,7 +135,7 @@ void Netflix::ponlePlay(){
                     cin>>calificacion;
                 }
 
-                system("CLS");
+                system("clear");
                 //convierto la calificacion validada en int
                 cal=stoi(calificacion);
 
@@ -152,14 +152,14 @@ void Netflix::ponlePlay(){
 
                     //verifico si existen videos con la calificacion seleccionada
                     if(verificador==false){
-                        system("CLS");
+                        system("clear");
                         cout<<"-------------------------------------------------"<<endl;
                         cout<<"No se encontro ningun video con esa calificacion."<<endl;
                         cout<<"-------------------------------------------------"<<endl;
                         cout<<endl;
                     }
                 }else{
-                    system("CLS");
+                    system("clear");
                     cout<<"---------------------------------------------------------------"<<endl;
                     cout<<"No se encontro ningun video. asegurese de cargar datos primero."<<endl;
                     cout<<"---------------------------------------------------------------"<<endl;
@@ -184,7 +184,7 @@ void Netflix::ponlePlay(){
 
                     //notifico si no hay series
                     if(verificador==false){
-                        system("CLS");
+                        system("clear");
                         cout<<"------------------------------------------------------"<<endl;
                         cout<<"No se encontro ninguna serie.Agregue series al archivo"<<endl;
                         cout<<"------------------------------------------------------"<<endl;
@@ -223,7 +223,7 @@ void Netflix::ponlePlay(){
                     }
                         
                     if(verificador==false){
-                        system("CLS");
+                        system("clear");
                         cout<<"----------------------------------------------------------------"<<endl;
                         cout<<"No existe alguna serie con esa calificacion o no exise la serie."<<endl;
                         cout<<"----------------------------------------------------------------"<<endl;
@@ -231,7 +231,7 @@ void Netflix::ponlePlay(){
                     }
 
                 }else{
-                    system("CLS");
+                    system("clear");
                     cout<<"---------------------------------------------------------------"<<endl;
                     cout<<"No se encontro ningun video. asegurese de cargar datos primero."<<endl;
                     cout<<"---------------------------------------------------------------"<<endl;
@@ -251,7 +251,7 @@ void Netflix::ponlePlay(){
                         cin>>calificacion;
                     }
 
-                    system("CLS");
+                    system("clear");
                     cal=stoi(calificacion);      
 
                     for(int i=0;i<videos.size();i++){
@@ -264,14 +264,14 @@ void Netflix::ponlePlay(){
 
                     //notifico si no hay peliculas con esa calificacion
                     if(verificador==false){
-                        system("CLS");
+                        system("clear");
                         cout<<"---------------------------------------------------------------"<<endl;
                         cout<<"No existen peliculas, o peliculas con esa calificacion."<<endl;
                         cout<<"---------------------------------------------------------------"<<endl;
                         cout<<endl;
                     }              
                 }else{
-                    system("CLS");
+                    system("clear");
                     cout<<"---------------------------------------------------------------"<<endl;
                     cout<<"No se encontro ningun video. asegurese de cargar datos primero."<<endl;
                     cout<<"---------------------------------------------------------------"<<endl;
@@ -315,20 +315,20 @@ void Netflix::ponlePlay(){
 
                     //notifico si no hay videos con ese titulo 
                     if(verificador==false){
-                        system("CLS");
+                        system("clear");
                         cout<<"---------------------------------------------------------------"<<endl;
                         cout<<"No existen videos con ese titulo."<<endl;
                         cout<<"---------------------------------------------------------------"<<endl;
                         cout<<endl;
                     }else{
-                        system("CLS");
+                        system("clear");
                         cout<<"--------------------------------"<<endl;
                         cout<<"Video calificado exitosamenteXD."<<endl;
                         cout<<"--------------------------------"<<endl;
                         cout<<endl;
                     }
                 }else{
-                    system("CLS");
+                    system("clear");
                     cout<<"---------------------------------------------------------------"<<endl;
                     cout<<"No se encontro ningun video. asegurese de cargar datos primero."<<endl;
                     cout<<"---------------------------------------------------------------"<<endl;
