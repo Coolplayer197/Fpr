@@ -18,8 +18,8 @@ p,JOKP334-Y,The Joker,122,drama
 p,AVS-6BT5H,Who killed captain Alex,74,accion
 p,12874124A,Never Back Down,127,accion
 p,JGV-124512,Avatar,150,accion
-c,XDJAJAJA,Internment,43,accion,The Walking Dead T4,5
-c,LFR-2020,BlueBallz,56,drama,Lucifer T5,6
-p,AZR-21412,Bay Watch,117,drama
+c,XDJAJAJA,Inter,43,accion,The Walking Dead T4,5
+c,LFR-2020,Ball,56,drama,Lucifer T5,6
+p,AZR-21412,Watchmen,117,drama
 
 

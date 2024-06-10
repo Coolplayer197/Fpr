@@ -54,7 +54,7 @@ void Video::setDuracion(std::string duracion){
 
         //verifico que sea mayor que 0
         if(duracion[0]=='0'){
-            std::cout<<"ingrese unicamente numeros mayores que 0 para la duracion xdxdxd:"<<std::endl;
+            std::cout<<"ingrese unicamente numeros mayores que 0 para la duracion:"<<std::endl;
             getline(std::cin,duracion);
             i=-1;
         }
